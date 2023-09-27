@@ -1,8 +1,7 @@
 ---
 title: PAGE 112 - TO ANGELA
-position: 2
-permalink: /
-images:
+position: 1
+carousel:
   - image: '/assets/images/To_Angela/artwork_1_1.jpg'
   - image: '/assets/images/To_Angela/artwork_1_2.jpg'
   - image: '/assets/images/To_Angela/artwork_1_3.jpg'
