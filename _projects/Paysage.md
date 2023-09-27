@@ -1,7 +1,7 @@
 ---
 title: PAYSAGE
-position: 3
-images:
+position: 2
+carousel:
   - image: '/assets/images/Paysage/artwork_2_1.jpg'
   - image: '/assets/images/Paysage/artwork_2_2.jpg'
 ---

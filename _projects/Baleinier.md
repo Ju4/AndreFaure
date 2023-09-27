@@ -1,7 +1,7 @@
 ---
 title: BALEINIER
-position: 1
-images:
+position: 3
+carousel:
   - image: '/assets/images/Baleinier/artwork_3_1.jpg'
 ---
 
