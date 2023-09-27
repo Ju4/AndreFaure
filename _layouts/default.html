@@ -11,7 +11,7 @@
   <body>
     {% include navigation.html %}
     <div class="page_content">
-      {% if page.image %}<img src="{{ page.image | relative_url }}" alt="Illustration">{% endif %}
+      {% if page.image %}<img class="main_illustration" src="{{ page.image | relative_url }}" alt="Illustration">{% endif %}
       <div class="carousel_container">
         {% include carousel.html height="60" unit="%" duration="10" number="1" %}
       </div>
