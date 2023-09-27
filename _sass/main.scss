@@ -1,0 +1,35 @@
+body {
+  background-color: $back-color;
+  color: $base-color;
+  text-align: center;
+  font-weight: 200;
+}
+nav {
+  margin-bottom: 64px;
+  font-size: large;
+}
+footer {
+  margin-top: 64px;
+}
+.site_title {
+  color: $secondary-color;
+  font-weight: 200;
+  font-size: xx-large;
+}
+.page_content {
+  line-height: 1.5;
+}
+.carousel_container {
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 32px;
+}
+
+.carousel__indicator {
+  background-color: $base-color !important;
+}
+
+.carousel__control {
+  border-color: $base-color !important;
+}

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    {% seo %}
+    <link rel="stylesheet" href="{{ '/assets/css/media-screen.css' | relative_url }}" media="screen">
+    <link rel="stylesheet" href="{{ '/assets/css/media-print.css' | relative_url }}" media="print">
+    <link rel="icon" type="image/png" href="{{ '/assets/images/favicon.png' | relative_url }}">
+  </head>
+  <body>
+    {% include navigation.html %}
+    <div class="page_content">
+      {% if page.images %}
+        <div class="carousel_container">
+          {% include carousel.html height="60" unit="%" duration="10" number="1" %}
+        </div>
+      {% endif %}
+      {{ content }}
+    </div>
+    {% include footer.html %}
+  </body>
+</html>

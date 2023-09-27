@@ -1,0 +1,16 @@
+body {
+  font-family: Serif;
+}
+.page_content {
+  margin: 5% 10%;
+}
+nav ul {
+  display: none;
+}
+a:link, a:visited {
+  text-decoration: none;
+  color: $base-color;
+}
+a:link:after, a:visited:after {
+  content: " (" attr(href) ") ";
+}

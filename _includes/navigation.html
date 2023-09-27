@@ -1,0 +1,11 @@
+<nav>
+  <a href="{{ '/' | relative_url }}" alt="Accueil">
+    <h1 class="site_title">{{site.title}}</h1>
+  </a>
+  <ul>
+    {% assign projects = site.projects | sort: 'position' %}
+    {% for item in projects %}
+      <li><a href="{{ item.url | relative_url }}" {% if page.url == item.url %}class="current"{% endif %}>{{ item.title }}</a></li>
+    {% endfor %}
+  </ul>
+</nav>

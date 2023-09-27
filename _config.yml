@@ -1,0 +1,20 @@
+title: André Faure
+email: contact@andrefaure.com
+description: >-
+  André Faure, artiste, vit et travaille à Paris.
+baseurl: "/AndreFaure"
+url: "https://ju4.fr"
+
+collections:
+  projects:
+    output: true
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: "default"
+
+plugins:
+  - jekyll-sitemap
+  - jekyll-seo-tag
