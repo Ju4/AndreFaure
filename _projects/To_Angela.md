@@ -24,5 +24,4 @@ Some words on the flyleaf. « To Angela ..(..).. »
 However, a sheet of paper folded on page 366, with the expected poem handwritten, and a sequence of words arranged inside.
 
 Page 112 - To Angela consists of a succession of unique pieces, robotically-handwritten. each singular-all identical in a way.  
-In a relatively short time, the envelope will be sent by mail, with the letter inside.  
 When the pens are empty, the series stops.
