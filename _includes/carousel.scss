@@ -127,7 +127,8 @@
 }
 {% for item in page.carousel %}
   .carousel__slide:nth-of-type({{ forloop.index }}) {
-    background-size: cover;
+    background-size: contain;
+    background-repeat: no-repeat;
     background-position: center;
   }
 {% endfor %}
