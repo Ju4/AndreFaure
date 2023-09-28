@@ -22,17 +22,18 @@ video {
   line-height: 1.5;
 }
 .carousel_container {
-  max-width: 900px;
+  max-width: 1200px;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 32px;
 }
 .carousel__indicator {
   background-color: $base-color !important;
+  border-color: $back-color !important;
 }
 .carousel__control {
   border-color: $base-color !important;
 }
 .carousel__slide {
-  border-color: $back-color;
+  border-color: $back-color !important;
 }
