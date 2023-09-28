@@ -28,3 +28,9 @@ footer {
 .main_illustration {
   max-width: 80%;
 }
+.carousel__indicator {
+  background-color: $base-color !important;
+}
+.carousel__control {
+  border-color: $base-color !important;
+}
