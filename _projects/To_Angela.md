@@ -1,18 +1,18 @@
 ---
 title: PAGE 112 - TO ANGELA
 position: 1
-video: '/assets/videos/artwork_1_video.mp4'
+video: '/assets/videos/to_angela_video.mp4'
 carousel:
-  - image: '/assets/images/To_Angela/artwork_1_1.jpg'
-  - image: '/assets/images/To_Angela/artwork_1_2.jpg'
-  - image: '/assets/images/To_Angela/artwork_1_3.jpg'
-  - image: '/assets/images/To_Angela/artwork_1_4.jpg'
-  - image: '/assets/images/To_Angela/artwork_1_5.jpg'
-  - image: '/assets/images/To_Angela/artwork_1_6.jpg'
-  - image: '/assets/images/To_Angela/artwork_1_7.jpg'
-  - image: '/assets/images/To_Angela/artwork_1_8.jpg'
-  - image: '/assets/images/To_Angela/artwork_1_9.jpg'
-  - image: '/assets/images/To_Angela/artwork_1_10.jpg'
+  - image: '/assets/images/to_angela_1.jpg'
+  - image: '/assets/images/to_angela_2.jpg'
+  - image: '/assets/images/to_angela_3.jpg'
+  - image: '/assets/images/to_angela_4.jpg'
+  - image: '/assets/images/to_angela_5.jpg'
+  - image: '/assets/images/to_angela_6.jpg'
+  - image: '/assets/images/to_angela_7.jpg'
+  - image: '/assets/images/to_angela_8.jpg'
+  - image: '/assets/images/to_angela_9.jpg'
+  - image: '/assets/images/to_angela_10.jpg'
 ---
 
 Page 112 - To Angela is the first occurence of the project Page 112 (Small hands).  
