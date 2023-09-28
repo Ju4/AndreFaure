@@ -9,10 +9,17 @@
     <link rel="icon" type="image/png" href="{{ '/assets/images/favicon.png' | relative_url }}">
   </head>
   <body>
-    {% include navigation.html %}
+    <nav>
+      {% include navigation.html %}
+    </nav>
     <div class="page_content">
       {{ content }}
     </div>
-    {% include footer.html %}
+    <div class="section">
+      <div class="section_content">
+        {% include navigation.html %}
+        {% include footer.html %}
+      </div>
+    </div>
   </body>
 </html>

@@ -9,6 +9,6 @@ nav, footer, .section {
   display: flex;
   align-items: center;
 }
-.description {
+.section_content {
   margin: auto
 }

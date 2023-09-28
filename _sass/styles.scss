@@ -1,7 +1,7 @@
 body {
   font-family: Helvetica Neue, Serif;
 }
-nav ul {
+.menu ul {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -15,9 +15,9 @@ a {
   color: $secondary-color;
   text-decoration: none;
 }
-nav a { 
+.menu a {
   color: $base-color;
 }
-nav .current {
+.menu .current {
   text-decoration: underline;
 }

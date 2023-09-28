@@ -1,4 +1,4 @@
-title: André Faure
+title: Page 112
 email: contact@andrefaure.com
 description: >-
   André Faure, Paris-based artist
@@ -14,7 +14,7 @@ defaults:
       path: ""
       type: "projects"
     values:
-      layout: "project"
+      layout: "showcase"
   - scope:
       path: ""
     values:

@@ -1,6 +1,6 @@
 ---
-title: BALEINIER
-position: 3
+title: Baleinier
+position: 2
 carousel:
   - image: '/assets/images/baleinier_1.jpg'
 ---

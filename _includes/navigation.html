@@ -1,4 +1,4 @@
-<nav>
+<div class="menu">
   <a href="{{ '/' | relative_url }}" alt="Accueil">
     <h1 class="site_title">{{site.title}}</h1>
   </a>
@@ -8,4 +8,4 @@
       <li><a href="{{ item.url | relative_url }}" {% if page.url == item.url %}class="current"{% endif %}>{{ item.title }}</a></li>
     {% endfor %}
   </ul>
-</nav>
+</div>
