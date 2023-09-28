@@ -1,0 +1,33 @@
+---
+layout: default
+---
+
+{% if page.video %}
+  <video id="video_presentation" class="section" autoplay playsinline muted loop>
+    <source src="{{ page.video | relative_url }}" type="video/mp4">
+  </video>
+{% endif %}
+
+{% if page.carousel %}
+  <div id="carousel_presentation" class="carousel_container section">
+    {% include carousel.html height="60" unit="%" duration="10"%}
+  </div>
+{% endif %}
+
+<div class="section">
+  <div class="description">
+    {{ content }}
+  </div>
+</div>
+
+<style>
+  {% include pagination.css %}
+</style>
+
+<script>
+  {% if page.video %}
+    document.getElementById("video_presentation").scrollIntoView();
+  {% elsif page.carousel %}
+    document.getElementById("carousel_presentation").scrollIntoView();
+  {% endif %}
+</script>

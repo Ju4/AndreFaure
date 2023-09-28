@@ -1,7 +1,7 @@
 ---
 title: Home
-carousel:
-  - image: '/assets/images/profile.jpg'
 ---
+
+![Workshop picture]({{ '/assets/images/profile.jpg' | relative_url }})
 
 André Faure, artist, lives and works in Paris.

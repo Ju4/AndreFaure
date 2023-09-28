@@ -1,6 +1,7 @@
 ---
 title: PAGE 112 - TO ANGELA
 position: 1
+video: '/assets/videos/artwork_1_video.mp4'
 carousel:
   - image: '/assets/images/To_Angela/artwork_1_1.jpg'
   - image: '/assets/images/To_Angela/artwork_1_2.jpg'

@@ -1,4 +1,4 @@
-{% if page.carousel %}
+
   {% assign letterstring = "a,b,c,d,e,f,g,h,i,j,k,l,m,n" %}
   {% assign letters = letterstring | split: ',' %}
   {% assign size = page.carousel | size %}
@@ -77,4 +77,3 @@
     },{{ include.duration }}000);
     {% endif %}
   </script>
-{% endif %}

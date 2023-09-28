@@ -6,14 +6,20 @@ body {
 }
 nav {
   font-size: large;
+  padding: 32px;
 }
 footer {
   margin-top: 64px;
+}
+video {
+  max-height: 90%;
+  max-width: 100%;
 }
 .site_title {
   color: $secondary-color;
   font-weight: 200;
   font-size: xx-large;
+  margin-top: 0;
 }
 .page_content {
   line-height: 1.5;
