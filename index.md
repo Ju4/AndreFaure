@@ -3,7 +3,6 @@ title: Page 112
 layout: "showcase"
 video: '/assets/videos/to_angela_video.mp4'
 carousel:
-  - image: '/assets/images/to_angela_1.jpg'
   - image: '/assets/images/to_angela_2.jpg'
   - image: '/assets/images/to_angela_3.jpg'
   - image: '/assets/images/to_angela_5.jpg'
