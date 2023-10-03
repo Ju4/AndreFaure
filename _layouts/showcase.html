@@ -10,7 +10,7 @@ layout: default
 
 {% if page.carousel %}
   <div id="carousel_presentation" class="carousel_container section">
-    {% include carousel.html height="60" unit="%" duration="10" %}
+    {% include carousel.html height="60" unit="%" %}
   </div>
 {% endif %}
 
@@ -24,10 +24,4 @@ layout: default
   {% include pagination.css %}
 </style>
 
-<script>
-  {% if page.video %}
-    document.getElementById("video_presentation").scrollIntoView();
-  {% elsif page.carousel %}
-    document.getElementById("carousel_presentation").scrollIntoView();
-  {% endif %}
-</script>
+<script src="{{ '/assets/js/scroll-position.js' | relative_url }}"></script>
