@@ -8,6 +8,7 @@ url: "https://ju4.fr"
 collections:
   projects:
     output: true
+    sort_by: position
 
 defaults:
   - scope:
