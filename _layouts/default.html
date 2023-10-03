@@ -1,12 +1,7 @@
 <!DOCTYPE html>
 <html lang="fr">
   <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    {% seo %}
-    <link rel="stylesheet" href="{{ '/assets/css/media-screen.css' | relative_url }}" media="screen">
-    <link rel="stylesheet" href="{{ '/assets/css/media-print.css' | relative_url }}" media="print">
-    <link rel="icon" type="image/png" href="{{ '/assets/images/favicon.png' | relative_url }}">
+    {% include head.html %}
   </head>
   <body>
     <nav>
@@ -17,7 +12,6 @@
     </div>
     <div class="section">
       <div class="section_content">
-        {% include navigation.html %}
         {% include footer.html %}
       </div>
     </div>
