@@ -15,10 +15,6 @@ defaults:
       type: "projects"
     values:
       layout: "showcase"
-  - scope:
-      path: ""
-    values:
-      layout: "default"
 
 sass:
   style: compressed
